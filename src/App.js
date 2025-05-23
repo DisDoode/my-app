@@ -54,14 +54,14 @@ function App() {
 
                     <Grid size={10}>
                         <Routes>
-                            <Route >
+                      
                                 <Route index element={<Home />} />
                                 <Route path="/Kul" element={<Kul />} />
                                 <Route path="/Jobb" element={<Jobb />} />
                                 <Route path="/Spill" element={<Spill />} />
                                 <Route path="/Cat" element={<Cat />} />
                                 <Route path="/Ordbok" element={<Ordbok />} />
-                            </Route>
+                
                         </Routes>
                     </Grid>
                 </Grid>
