@@ -95,7 +95,7 @@ li{font-size: 1.6rem;}
 .menuIcon {
   color: white;
   font-size: 30px;
-  transition: 1s;
+  transition: 0.3s!important;
 }
 
 .menuButton:hover .menuIcon {
@@ -116,4 +116,15 @@ li{font-size: 1.6rem;}
     }
   }
 
-  
+  .bunny{
+    color: white; 
+    font-size: 100px!important;
+     transition: 5s!important;
+  }
+
+  .bunny:hover { 
+    width: 2000px; 
+    height: 1000px; 
+    color: red;
+     rotate: 360deg!important; 
+    } 

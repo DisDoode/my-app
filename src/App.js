@@ -26,7 +26,7 @@ function App() {
                     <Box className="BoxClass" >
                         <Grid container spacing={2}>
                             <Grid size={1}>
-                                <CrueltyFreeIcon sx={{ color: "white", fontSize: "100px", transition: "5s", "&:hover": { width: "2000px", height: "1000px", color: "red", rotate: "360deg" } }} ></CrueltyFreeIcon>
+                                <CrueltyFreeIcon className='bunny'></CrueltyFreeIcon>
                             </Grid>
                         </Grid>
                     </Box>
@@ -42,15 +42,16 @@ function App() {
                 <Grid container spacing={2}>
                     <Grid size={2}>
                         <Stack>
-                            <Button className="menuButton" href="/" variant="text">Start <HomeIcon sx={{ color: "white", fontSize: "30px", transition: "1s", "&:hover": { width: "60px", height: "60px", rotate: "30deg" } }}></HomeIcon></Button>
-                            <Button className="menuButton" href="/Kul" variant="text">Logg <ArticleIcon sx={{ color: "white", fontSize: "30px", transition: "1s", "&:hover": { width: "60px", height: "60px", rotate: "30deg" } }}></ArticleIcon></Button>
-                            <Button className="menuButton" href="/Jobb" variant="text">Om Jobb <WorkIcon sx={{ color: "white", fontSize: "30px", transition: "1s", "&:hover": { width: "60px", height: "60px", rotate: "30deg" } }}></WorkIcon></Button>
-                            <Button className="menuButton" href="/Spill" variant="text" >Spill <SportsEsportsIcon sx={{ color: "white", fontSize: "30px", transition: "1s", "&:hover": { width: "60px", height: "60px", rotate: "30deg" } }}></SportsEsportsIcon></Button>
-                            <Button className="menuButton" href="/Cat" variant="text" >Cat <PetsIcon sx={{ color: "white", fontSize: "30px", transition: "1s", "&:hover": { width: "60px", height: "60px", rotate: "30deg" } }}></PetsIcon></Button>
-                            <Button className="menuButton" href="/Ordbok" variant="text" >Ordbok <MenuBookIcon sx={{ color: "white", fontSize: "30px", transition: "1s", "&:hover": { width: "60px", height: "60px", rotate: "30deg" } }}></MenuBookIcon></Button>
-                            <Box sx={{ border: "1px solid white", paddingLeft: "40px", height: "67vh", borderRadius: "10px", backgroundColor: '#00004d', color: "white", }}></Box>
+                            <Button className="menuButton" href="/" variant="text">Start <HomeIcon className="menuIcon"></HomeIcon></Button>
+                            <Button className="menuButton" href="/Kul" variant="text">Logg <ArticleIcon className="menuIcon"></ArticleIcon></Button>
+                            <Button className="menuButton" href="/Jobb" variant="text">Om Jobb <WorkIcon className="menuIcon"></WorkIcon></Button>
+                            <Button className="menuButton" href="/Spill" variant="text" >Spill <SportsEsportsIcon className="menuIcon"></SportsEsportsIcon></Button>
+                            <Button className="menuButton" href="/Cat" variant="text" >Cat <PetsIcon className="menuIcon"></PetsIcon></Button>
+                            <Button className="menuButton" href="/Ordbok" variant="text" >Ordbok <MenuBookIcon className="menuIcon"></MenuBookIcon></Button>
+                            <Box sx={{ border: "1px solid white", paddingLeft: "40px", height: "95vh", borderRadius: "10px", backgroundColor: '#00004d', color: "white", }}></Box>
                         </Stack>
                     </Grid>
+
                     <Grid size={10}>
                         <Routes>
                             <Route >
@@ -80,7 +81,7 @@ function App() {
                         <Grid size={4}>
 
                             <p className="strokemeSmall" >Følg meg</p>
-                            <Box className="item">   <a className="strokemeTiny" href="https://scratch.mit.edu/users/dis_doode/" >Scratch</a></Box>
+                            <Box className="item">   <a className="strokemeTiny" href="https://scratch.mit.edu/users/dis_doode/" >dis_doode på scratch</a></Box>
                         </Grid>
                     </Grid>
                 </Box>

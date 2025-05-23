@@ -1,4 +1,4 @@
-import Fana from "./Images/Fana.webp"
+import hacking_building from "./Images/hacking_building.jpg"
 import { Grid } from "@mui/material";
 
 function Home() {
@@ -12,7 +12,7 @@ function Home() {
                  <Grid container spacing={2}>
 
                 <Grid size={5}>
-       <img src={Fana} alt="Fana Sparebank"   width="100%"   ></img>
+       <img src={hacking_building} alt="Fana Sparebank"   width="100%"   ></img>
                 </Grid>
                 <Grid size={7}>
                     
