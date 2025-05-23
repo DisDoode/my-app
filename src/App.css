@@ -1,3 +1,28 @@
+p{font-size: 2rem;}
+li{font-size: 1.6rem;}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 2000px) {p {font-size: 1.5rem;}}
+@media only screen and (max-width: 2000px) {li {font-size: 1rem;}}
+
+.strokeme {
+  color: rgb(0, 88, 177);
+  font-size: 100px;
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0#ffffff, 1px 1px 0 #ffffff;
+}
+
+.strokemeSmall {
+  color: white;
+  font-size: 30px;
+  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0#000000, 1px 1px 0 #000000;
+}
+
+.strokemeTiny {
+    color: white;
+  font-size: 20px;
+  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0#000000, 1px 1px 0 #000000;
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +61,44 @@
     transform: rotate(360deg);
   }
 }
+
+.BoxClass {
+  background: #00004d;
+  border: 3px solid white;
+  height: 100px; 
+}
+
+ h2{
+  font-size: 25px;
+ }
+
+.BoxUnder{
+   background: #00004d;
+   border: 3px solid white;
+    height:200px;
+}
+
+.iconsButton{
+   color: white;
+    font-size: 30px;
+     transition: 0.3s;
+      &:hover { 
+        width: 60px;
+         height: 60px;
+          rotate: 30deg;
+        }
+}
+
+  .paperLogg{
+      width: 100%;
+      height: 100%;
+  }
+
+  .item{
+    transition: 0.3s;
+    &:hover {
+      rotate: 20deg;
+    }
+  }
+
+  
