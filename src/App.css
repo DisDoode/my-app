@@ -78,15 +78,30 @@ li{font-size: 1.6rem;}
     height:200px;
 }
 
-.iconsButton{
-   color: white;
-    font-size: 30px;
-     transition: 0.3s;
-      &:hover { 
-        width: 60px;
-         height: 60px;
-          rotate: 30deg;
-        }
+.menuButton {
+  background-color: #00004d !important;
+  color: white !important;
+  border: 1px solid white !important;
+  padding: 20px 40px!important;
+  border-radius: 10px!important;
+  transition: 0.3s!important;
+}
+.menuButton:hover {
+  background-color: blue !important;
+  padding: 25px 45px;
+  transform: rotate(5deg);
+}
+
+.menuIcon {
+  color: white;
+  font-size: 30px;
+  transition: 1s;
+}
+
+.menuButton:hover .menuIcon {
+  width: 60px;
+  height: 60px;
+  transform: rotate(30deg);
 }
 
   .paperLogg{
